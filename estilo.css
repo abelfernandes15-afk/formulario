@@ -1,0 +1,113 @@
+/* Fundo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Caixa branca (faixa) */
+.container {
+    width: 90%;
+    max-width: 400px;
+    min-height: 650px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e3a8a;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Efeito ao clicar */
+input:focus {
+    border-color: #1e3a8a;
+    box-shadow: 0 0 8px rgba(30, 58, 138, 0.5);
+    outline: none;
+}
+
+/* Range mais bonito */
+input[type="range"] {
+    cursor: pointer;
+}
+
+/* Botões */
+.botoes {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Reset */
+input[type="reset"] {
+    background: #ccc;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+input[type="reset"]:hover {
+    background: #999999;
+}
+
+/* Botão principal */
+button {
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover botão */
+button:hover {
+    background: #0f172a;
+    transform: scale(1.05);
+}
+
+.container {
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
