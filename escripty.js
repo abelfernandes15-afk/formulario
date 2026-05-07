@@ -1,4 +1,4 @@
-const botaopremio = document.querySelector("premio");
-botaopremio.addEventListener("click", () => {
-    alert('Você resgatou seu prêmio!');
+const botaoEnviar = document.querySelector("enviar");
+botaoEnviar.addEventListener("click", () => {
+    alert("Enviado com sucesso!!!");
 }, { once: true });
